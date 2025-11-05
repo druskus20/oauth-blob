@@ -1,2 +1,7 @@
 # oauth-blob
-the wasm for oauth
+
+``` 
+just install-binarygen
+just pack
+```
+
