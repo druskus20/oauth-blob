@@ -1,7 +1,12 @@
 # oauth-blob
 
 ``` 
-just install-binarygen
+just install
+just debug
+just release
 just pack
+just example
 ```
+
+
 
