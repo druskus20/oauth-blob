@@ -26,7 +26,10 @@ package: release
   wasm-bindgen --out-dir pkg --web target/release/oauth_blob_optimized.wasm
 
 example: package
-  http-server . 
+  @which miniserve || (cargo binstall miniserve && miniserve .)  
   @echo "Open http://localhost:8080/examples/index.html in your browser"
+  @miniserve . >/dev/null 
+
+
 
 
